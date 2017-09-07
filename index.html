@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Image view</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h2>Image view</h2>
+	</header>
+	<main>
+	    <ul id="images">
+	    </ul>
+	    <div id="pagination">
+		    <span id="prev-page">&#60;</span>
+		    <span id="current-page">1</span>
+		    <span id="next-page">&#62;</span>
+	    </div>
+	</main>
+	<aside>
+		<h2>Filter by</h2>
+		<h3>Size</h3>
+		<ul id="sizes">
+			<li class="current-filter">Large</li>
+			<li>Medium</li>
+			<li>Small</li>
+		</ul>
+		<h3>Author</h3>
+		<ul id="authors">
+		</ul>
+	</aside>
+	<div class="overlays">
+		<div class="gallery hidden">
+			<span class="gallery-close" role="button" tabindex="2">&times;</span>
+			<div class="gallery-picture"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/gallery.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
